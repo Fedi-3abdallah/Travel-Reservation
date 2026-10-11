@@ -1,7 +1,7 @@
-package com.example.travel;
+package com.travel;
 
-import com.example.travel.entity.*;
-import com.example.travel.repository.*;
+import com.travel.entity.*;
+import com.travel.repository.*;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

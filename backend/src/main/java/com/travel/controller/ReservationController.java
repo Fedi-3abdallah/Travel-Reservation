@@ -1,7 +1,7 @@
-package com.example.travel.controller;
+package com.travel.controller;
 
-import com.example.travel.entity.Reservation;
-import com.example.travel.service.ReservationService;
+import com.travel.entity.Reservation;
+import com.travel.service.ReservationService;
 import org.springframework.http.HttpStatus;
 import org.springframework.security.access.prepost.PreAuthorize;
 import org.springframework.security.core.Authentication;

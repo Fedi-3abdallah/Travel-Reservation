@@ -1,7 +1,7 @@
-package com.example.travel.controller;
+package com.travel.controller;
 
-import com.example.travel.entity.Voyage;
-import com.example.travel.service.VoyageService;
+import com.travel.entity.Voyage;
+import com.travel.service.VoyageService;
 import jakarta.validation.Valid;
 import org.springframework.format.annotation.DateTimeFormat;
 import org.springframework.http.HttpStatus;

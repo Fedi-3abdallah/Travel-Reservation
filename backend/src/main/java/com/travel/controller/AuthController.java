@@ -1,7 +1,7 @@
-package com.example.travel.controller;
+package com.travel.controller;
 
-import com.example.travel.entity.User;
-import com.example.travel.service.AuthService;
+import com.travel.entity.User;
+import com.travel.service.AuthService;
 import jakarta.validation.Valid;
 import org.springframework.http.HttpStatus;
 import org.springframework.security.core.Authentication;

@@ -1,5 +1,5 @@
-package com.example.travel.repository;
-import com.example.travel.entity.Voyage;
+package com.travel.repository;
+import com.travel.entity.Voyage;
 import org.springframework.data.jpa.repository.*;
 import org.springframework.data.repository.query.Param;
 import java.time.LocalDateTime;

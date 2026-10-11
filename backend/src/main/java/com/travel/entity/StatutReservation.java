@@ -1,2 +1,2 @@
-package com.example.travel.entity;
+package com.travel.entity;
 public enum StatutReservation { CONFIRMEE, ANNULEE }

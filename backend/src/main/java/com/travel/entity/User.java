@@ -1,4 +1,4 @@
-package com.example.travel.entity;
+package com.travel.entity;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
 import jakarta.persistence.*;
