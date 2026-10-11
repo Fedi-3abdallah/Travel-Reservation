@@ -1,0 +1,107 @@
+# ==========================================
+# Spring Boot / Maven (backend)
+# ==========================================
+
+backend/target/
+backend/.mvn/wrapper/maven-wrapper.jar
+backend/out/
+
+# Logs
+*.log
+logs/
+
+# Java compiled files
+*.class
+*.jar
+*.war
+*.ear
+
+# ==========================================
+# Angular / Node.js (frontend)
+# ==========================================
+
+# Dependencies
+node_modules/
+
+# Angular build output and cache
+dist/
+.angular/
+coverage/
+
+# Package manager logs
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+
+# ==========================================
+# Environment variables and secrets
+# ==========================================
+
+.env
+.env.*
+!.env.example
+
+# Spring Boot configuration containing secrets
+backend/src/main/resources/application-local.properties
+backend/src/main/resources/application-prod.properties
+backend/src/main/resources/application-local.yml
+backend/src/main/resources/application-prod.yml
+
+# Private keys and certificates
+*.pem
+*.key
+*.p12
+*.jks
+
+# ==========================================
+# Uploaded files
+# ==========================================
+
+
+# ==========================================
+# IDEs and editors
+# ==========================================
+
+# IntelliJ IDEA
+.idea/
+*.iml
+*.iws
+*.ipr
+
+# Eclipse / Spring Tool Suite
+.classpath
+.project
+.settings/
+.sts4-cache/
+
+# VS Code
+.vscode/
+
+# NetBeans
+/nbproject/private/
+
+# ==========================================
+# Operating system files
+# ==========================================
+
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# ==========================================
+# Temporary files
+# ==========================================
+
+*.tmp
+*.temp
+*.swp
+*.swo
+*~
+
+# ==========================================
+# Test reports
+# ==========================================
+
+backend/test-output/
+backend/surefire-reports/
+backend/failsafe-reports/
