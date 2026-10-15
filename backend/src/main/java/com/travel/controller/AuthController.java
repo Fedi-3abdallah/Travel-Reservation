@@ -15,6 +15,7 @@ public class AuthController {
     @PostMapping("/register") @ResponseStatus(HttpStatus.CREATED)
     public User register(@Valid @RequestBody User user) { return service.register(user); }
 
+    /** Sert de "login" : si les identifiants Basic sont valides, renvoie l'utilisateur. */
     @GetMapping("/me")
     public User me(Authentication auth) { return service.me(auth.getName()); }
 }

@@ -19,8 +19,7 @@ public class VoyageController {
                                    @RequestParam(required = false) @DateTimeFormat(iso = DateTimeFormat.ISO.DATE) LocalDate date) {
         return service.rechercher(destination, date);
     }
-
-	//Admin
+	/** ADMIN : tous les voyages, y compris ceux déjà partis. */
 	@GetMapping("/admin")
 	public List<Voyage> tous() { return service.tous(); }
 	@GetMapping("/{id}")

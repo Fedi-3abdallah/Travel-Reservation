@@ -18,7 +18,9 @@ public class User {
     @Column(unique = true, nullable = false)
     private String email;
 
+    // WRITE_ONLY : accepté en entrée (inscription), jamais renvoyé dans les réponses JSON.
     @JsonProperty(access = JsonProperty.Access.WRITE_ONLY)
+    @Size(min = 6)
     @Column(nullable = false)
     private String password;
 

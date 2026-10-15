@@ -13,6 +13,7 @@ public class ReservationController {
     private final ReservationService service;
     public ReservationController(ReservationService service) { this.service = service; }
 
+	/** Corps attendu : { "voyage": { "id": 1 }, "nombrePlaces": 2 } */
 	@PostMapping @ResponseStatus(HttpStatus.CREATED) @PreAuthorize("hasRole('USER')")
 	public Reservation reserver(@RequestBody Reservation req, Authentication auth) {
 		return service.reserver(auth.getName(), req);

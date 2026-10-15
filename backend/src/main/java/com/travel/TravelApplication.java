@@ -13,6 +13,7 @@ import java.time.LocalDateTime;
 public class TravelApplication {
     public static void main(String[] args) { SpringApplication.run(TravelApplication.class, args); }
 
+    /** Données de démo : un admin et quelques voyages. */
     @Bean
     CommandLineRunner init(UserRepository users, VoyageRepository voyages, PasswordEncoder enc) {
         return args -> {

@@ -14,6 +14,6 @@ public class Voyage {
     @NotBlank private String destination;
     @NotNull private LocalDateTime dateDepart;
     @Positive private double prix;
-    @Min(1) private int placesDisponibles;
-    private String imageUrl; 
+    @Min(0) private int placesDisponibles;
+    private String imageUrl; // chemin relatif, ex. /uploads/xxxx.jpg
 }
